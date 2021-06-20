@@ -1,3 +1,13 @@
+## Live Website
+
+https://phasmo-assistant.netlify.app
+
+## UPDATE 20.06.2021
+
+Added 2 new ghost types: Yokai and Hantu.
+
+## Info
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
