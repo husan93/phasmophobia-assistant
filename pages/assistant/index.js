@@ -175,7 +175,7 @@ class Assistant extends Component {
           'Ghost Writing'
         ],
         weakness: 'While hunting, it can only hear voices close to it',
-        strenght: 'Talking near a Yokai will anger it and cause it to attack more often',
+        strength: 'Talking near a Yokai will anger it and cause it to attack more often',
         tips: '',
       },
       {
@@ -186,7 +186,7 @@ class Assistant extends Component {
           'Ghost Writing'
         ],
         weakness: 'Moves slower in warmer areas',
-        strenght: 'Moves faster in colder areas',
+        strength: 'Moves faster in colder areas',
         tips: '',
       },
     ],
