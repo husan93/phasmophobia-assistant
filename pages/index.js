@@ -23,14 +23,10 @@ export default function Home() {
 
       <footer className={styles.footer}>
         {(new Date()).getFullYear()}&nbsp;&copy;&nbsp;
-        <a
-          href="mailto:pirela_carlos@hotmail.com"
-          rel="noopener noreferrer"
-        >
-          Ceps
+          husan93, forked on Phasmophobia Assistent by Ceps
         </a>
         <a
-          href="https://github.com/Beatusvir/phasmophobia-assistant"
+          href="https://github.com/husan93/phasmophobia-assistant"
           target="_blank"
         >
           <img src="/GitHub-Mark-32px.png" alt="Github Logo" />
