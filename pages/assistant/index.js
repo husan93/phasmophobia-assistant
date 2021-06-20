@@ -168,7 +168,7 @@ class Assistant extends Component {
         tips: '',
       },
       {
-        type: 'Yoaki',
+        type: 'Yokai',
         evidence: [
           'Spirit Box',
           'Ghost Orbs',
