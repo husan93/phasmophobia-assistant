@@ -24,7 +24,7 @@ export default function Home() {
       <footer className={styles.footer}>
         {(new Date()).getFullYear()}&nbsp;&copy;&nbsp;
         <a>
-          husan93, forked on Phasmophobia Assistent by Ceps
+          husan93, forked from Phasmophobia Assistant by Ceps
         </a>
         <a
           href="https://github.com/husan93/phasmophobia-assistant"
