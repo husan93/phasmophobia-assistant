@@ -176,7 +176,7 @@ class Assistant extends Component {
         ],
         weakness: 'While hunting, it can only hear voices close to it',
         strenght: 'Talking near a Yokai will anger it and cause it to attack more often',
-        tips: ''.
+        tips: '',
       },
       {
         type: 'Hantu',
