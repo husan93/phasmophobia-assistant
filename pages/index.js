@@ -23,6 +23,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         {(new Date()).getFullYear()}&nbsp;&copy;&nbsp;
+        <a>
           husan93, forked on Phasmophobia Assistent by Ceps
         </a>
         <a
