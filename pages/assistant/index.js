@@ -167,6 +167,28 @@ class Assistant extends Component {
         strength: 'Oni are more active when people are nearby and have been seen moving objects at great speed',
         tips: '',
       },
+      {
+        type: 'Yoaki',
+        evidence: [
+          'Spirit Box',
+          'Ghost Orbs',
+          'Ghost Writing'
+        ],
+        weakness: 'While hunting, it can only hear voices close to it',
+        strenght: 'Talking near a Yokai will anger it and cause it to attack more often',
+        tips: ''.
+      },
+      {
+        type: 'Hantu',
+        evidence: [
+          'Fingerprints',
+          'Ghost Orbs',
+          'Ghost Writing'
+        ],
+        weakness: 'Moves slower in warmer areas',
+        strenght: 'Moves faster in colder areas',
+        tips: '',
+      },
     ],
     objectives: [
       {
