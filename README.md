@@ -2,6 +2,12 @@
 
 https://phasmo-assistant.netlify.app
 
+## UPDATE 01.09.2021
+
+Added 2 new ghost types: Goryo and Myling
+Added D.O.T.S projector as evidence
+Updated all ghost types
+
 ## UPDATE 20.06.2021
 
 Added 2 new ghost types: Yokai and Hantu.
