@@ -32,15 +32,19 @@ class Assistant extends Component {
         type: 'Spirit Box',
         icon: '/spiritBox.png'
       },
+      {
+        type: 'D.O.T.S Projector',
+        icon: '/dotsProjector.png'
+      },
     ],
     ghostName: '',
     ghosts: [
       {
         type: 'Spirit',
         evidence: [
-          'Fingerprints',
-          'Ghost Writing',
+          'EMF Level 5',
           'Spirit Box',
+          'Ghost Writing',
         ],
         strength: 'Using Smudge Sticks on a Spirit will stop it attacking for 120 seconds instead of 90',
         weakness: 'The spirit has no discernible strengths, however is known to increase its hunting as your sanity drops',
@@ -49,8 +53,8 @@ class Assistant extends Component {
       {
         type: 'Wraith',
         evidence: [
-          'Fingerprints',
-          'Freezing Temperatures',
+          'EMF Level 5',
+          'D.O.T.S Projector',
           'Spirit Box'
         ],
         strength: 'Wraiths almost never touch the ground, meaning footprint sounds are rare to non-existant. It can travel through walls and doors without opening them. Wraiths will however leave footprints in salt if stepped in',
@@ -60,9 +64,9 @@ class Assistant extends Component {
       {
         type: 'Phantom',
         evidence: [
-          'EMF Level 5',
-          'Freezing Temperatures',
-          'Ghost Orbs',
+          'Spirit Box',
+          'Fingerprints',
+          'D.O.T.S Projector',
         ],
         strength: 'Looking at a Phantom will considerably drop your Sanity. This refers to any visible manifestations of the Phantom, including during a Hunt',
         weakness: 'Taking a photo of the Phantom will make it temporarily disappear. The Photo Camera will make it disappear, but it will not stop a Hunt',
@@ -73,7 +77,7 @@ class Assistant extends Component {
         evidence: [
           'Spirit Box',
           'Fingerprints',
-          'Ghost Orbs',
+          'Ghost Writing',
         ],
         strength: 'A Poltergeist is capable of influencing more objects at once than any other Ghosts, and is capable of shutting multiple doors at once',
         weakness: 'A Poltergeist is almost ineffective in an empty room',
@@ -82,9 +86,9 @@ class Assistant extends Component {
       {
         type: 'Banshee',
         evidence: [
-          'EMF Level 5',
+          'Ghost Orbs',
           'Fingerprints',
-          'Freezing Temperatures',
+          'D.O.T.S Projector',
         ],
         strength: 'A Banshee will focus on one player at a time until it kills them',
         weakness: 'Banshees fear the Crucifix, which boosts the Hunt-stopping range of one from 3 meters to 5 meters against it',
@@ -93,9 +97,9 @@ class Assistant extends Component {
       {
         type: 'Jinn',
         evidence: [
-          'Ghost Orbs',
           'EMF Level 5',
-          'Spirit Box'
+          'Freezing Temperatures',
+          'Fingerprints'
         ],
         strength: 'A Jinn will travel at a faster speed if its victim is far away',
         weakness: 'Turning off the location`s power source will prevent the Jinn from using its ability',
@@ -105,8 +109,8 @@ class Assistant extends Component {
         type: 'Mare',
         evidence: [
           'Ghost Orbs',
-          'Freezing Temperatures',
-          'Spirit Box'
+          'Spirit Box',
+          'Ghost Writing'
         ],
         weakness: 'Turning the lights on will lower its chance to attack',
         strength: 'Increased chance to attack in the dark. As such, it will do what it can to achieve this, such as turning off lights and tripping the fuse box',
@@ -115,8 +119,8 @@ class Assistant extends Component {
       {
         type: 'Revenant',
         evidence: [
-          'EMF Level 5',
-          'Fingerprints',
+          'Ghost Orbs',
+          'Freezing Temperatures',
           'Ghost Writing'
         ],
         weakness: 'Hiding from the Revenant will cause it to move very slowly',
@@ -128,7 +132,7 @@ class Assistant extends Component {
         evidence: [
           'EMF Level 5',
           'Ghost Writing',
-          'Ghost Orbs'
+          'Freezing Temperatures'
         ],
         weakness: 'Conversely, a Shade will rarely start a Hunt when players are grouped together',
         strength: 'As a shy ghost, a Shade will rarely perform actions in the presence of two or more people, making it harder to detect',
@@ -139,7 +143,7 @@ class Assistant extends Component {
         evidence: [
           'Freezing Temperatures',
           'Ghost Writing',
-          'Spirit Box'
+          'Fingerprints'
         ],
         weakness: 'Asking a Demon successful questions on the Ouija Board won`t lower the user`s sanity',
         strength: 'Demons are the most aggressive and enter hunt mode more',
@@ -149,7 +153,7 @@ class Assistant extends Component {
         type: 'Yurei',
         evidence: [
           'Ghost Orbs',
-          'Ghost Writing',
+          'D.O.T.S Projector',
           'Freezing Temperatures'
         ],
         weakness: 'Using Smudge Sticks on the Yurei`s Ghost Room will cause it to not wander around the location for ~90 seconds',
@@ -160,8 +164,8 @@ class Assistant extends Component {
         type: 'Oni',
         evidence: [
           'EMF Level 5',
-          'Ghost Writing',
-          'Spirit Box'
+          'Freezing Temperatures',
+          'D.O.T.S Projector'
         ],
         weakness: 'Being more active will make the Oni easier to find and identify',
         strength: 'Oni are more active when people are nearby and have been seen moving objects at great speed',
@@ -172,7 +176,7 @@ class Assistant extends Component {
         evidence: [
           'Spirit Box',
           'Ghost Orbs',
-          'Ghost Writing'
+          'D.O.T.S Projector'
         ],
         weakness: 'While hunting, it can only hear voices close to it',
         strength: 'Talking near a Yokai will anger it and cause it to attack more often',
@@ -183,10 +187,32 @@ class Assistant extends Component {
         evidence: [
           'Fingerprints',
           'Ghost Orbs',
+          'Freezing Temperatures'
+        ],
+        weakness: 'Moves slower in warmer areas (about 1 m/s)',
+        strength: 'Moves faster in colder areas (about 1.8m/s)',
+        tips: '',
+      },
+      {
+        type: 'Goryo',
+        evidence: [
+          'EMF Level 5',
+          'Fingerprints',
+          'D.O.T.S Projector'
+        ],
+        weakness: 'Are rarely seen far from their place of death',
+        strength: 'Will usually only show itself on camera when there are no people nearby.',
+        tips: '',
+      },
+      {
+        type: 'Myling',
+        evidence: [
+          'EMF Level 5',
+          'Fingerprints',
           'Ghost Writing'
         ],
-        weakness: 'Moves slower in warmer areas',
-        strength: 'Moves faster in colder areas',
+        weakness: 'More frequently make paranormal sounds',
+        strength: 'Is known to be quieter when hunting',
         tips: '',
       },
     ],
