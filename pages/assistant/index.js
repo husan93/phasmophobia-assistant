@@ -215,8 +215,7 @@ class Assistant extends Component {
         strength: 'Is known to be quieter when hunting',
         tips: '',
       },
-      +      },
-	  {
+      {
         type: 'Onryo',
         evidence: [
           'Ghost Orbs',
