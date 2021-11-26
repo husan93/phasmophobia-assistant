@@ -4,7 +4,7 @@ https://phasmo-assistant.netlify.app
 
 ## UPDATE 26.11.2021
 
-Added 4 mew ghost types: Onryo, The Twins, Obake and Raiju
+Added 4 new ghost types: Onryo, The Twins, Obake and Raiju
 
 ## UPDATE 01.09.2021
 
