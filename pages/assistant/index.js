@@ -215,6 +215,51 @@ class Assistant extends Component {
         strength: 'Is known to be quieter when hunting',
         tips: '',
       },
+      +      },
+	  {
+        type: 'Onryo',
+        evidence: [
+          'Ghost Orbs',
+          'Freezing Temperatures',
+          'Spirit Box'
+        ],
+        weakness: 'When threatened, this ghost will be less likely to hunt.',
+        strength: 'Extinguishing a flame can cause an Onryo to attack.',
+        tips: '',
+      },
+	  {
+        type: 'The Twins',
+        evidence: [
+          'EMF Level 5',
+          'Freezing Temperatures',
+          'Spirit Box'
+        ],
+        weakness: 'The Twins will often interact with the environment at the same time.',
+        strength: 'Either Twin can be angered and initiate an attack on their prey.',
+        tips: '',
+      },
+	  {
+        type: 'Obake',
+        evidence: [
+          'EMF Level 5',
+          'Ghost Orbs',
+          'Fingerprints'
+        ],
+        weakness: 'Sometimes this ghost will shapeshift, leaving behind unique evidence.',
+        strength: 'When interacting with the environment, an Obake will rarely leave a trace.',
+        tips: '',
+      },
+	  {
+        type: 'Raiju',
+        evidence: [
+          'D.O.T.S Projector',
+          'EMF Level 5',
+          'Ghost Orbs'
+        ],
+        weakness: 'Raiju are constantly disrupting electronic equipment when attacking, making it easier to track.',
+        strength: 'A Raiju can siphon power from nearby electrical devices, making it move faster.',
+        tips: '',
+      },
     ],
     objectives: [
       {
