@@ -2,6 +2,10 @@
 
 https://phasmo-assistant.netlify.app
 
+## UPDATE 12.12.2021
+
+Added "The Mimic" as a new ghost type.
+
 ## UPDATE 26.11.2021
 
 Added 4 new ghost types: Onryo, The Twins, Obake and Raiju
