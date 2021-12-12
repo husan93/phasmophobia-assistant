@@ -259,6 +259,17 @@ class Assistant extends Component {
         strength: 'A Raiju can siphon power from nearby electrical devices, making it move faster.',
         tips: '',
       },
+	  {
+        type: 'The Mimic',
+        evidence: [
+          'Spirit Boc',
+          'Freezing Temperatures',
+          'Fingerprints'
+        ],
+        weakness: 'Several reports have noted ghost orb sightings near mimics.',
+        strength: 'We are unsure what this ghost is capable of. Be careful.',
+        tips: '',
+      },
     ],
     objectives: [
       {
