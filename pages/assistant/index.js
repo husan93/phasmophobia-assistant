@@ -262,7 +262,7 @@ class Assistant extends Component {
 	  {
         type: 'The Mimic',
         evidence: [
-          'Spirit Boc',
+          'Spirit Box',
           'Freezing Temperatures',
           'Fingerprints'
         ],
